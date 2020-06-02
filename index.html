@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+    
+<meta charset="utf-8">
+    
+<meta name="viewport" content="width=device-width">
+    
+<title>repl.it</title>
+<link 
+rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+type="text/css"/>
+
+<link href="index.css" rel="stylesheet" type="text/css" />
+
+</head>
+  
+<body>
+  <div id="container">   
+<header>
+        
+<h1>The Perfect English Breakfast</h1>
+        
+<img src="http://www.b4bguide.com/wp-content/uploads/2015/10/EnglishBreakfast-1200-80.jpg">
+        
+<p>They say breakfast is the most important meal of the day, so why not try it the English way!</p>
+    
+</header>
+    
+
+<section id="Ingredients" onmouseover="IngredientsHover()" onmouseout="IngredientsNormal()">
+        
+<h2>Ingredients <i class="fa fa-cutlery"
+aria-hidden="true"></i></h2>
+        
+<ul>
+          
+<li>Sausage</li>
+          
+<li>Mushrooms</li>
+          
+<li>Bacon</li>
+          
+<li>Beans</li>
+          
+<li>Eggs</li>
+          
+<li>Toast</li>
+        
+</ul>
+    
+</section>
+    
+
+<section id="Preparation" onmouseover="PreparationHover()" onmouseout="PreparationNormal()">
+        
+<h2>Preparation <i class="fa fa-clock-o" aria-hidden="true"></i></h2>
+        
+<ol>
+          
+<li>Cook the sausages. The sausages take the longest to cook (approximately 12 minutes), so it's best to start cooking them first. 
+	Place them in the pan with some preheated vegetable oil. Turn the sausages regularly.</li>
+<br>       
+<li>Cook the mushrooms. Firstly, clean the mushrooms, but do not wash them. Then slice the mushrooms and add them to a separate pan with some preheated vegetable oil.
+	Toss and stir the mushrooms over gentle heat for 5 minutes, then put them on a warm plate.</li>
+<br>           
+<li> Cook the bacon. In the same pan that the sausages have been cooking in, place the rashers of bacon in to cook. Turn them every minute or so.
+	English people often cook back bacon. It's a little meatier and thicker than the streaky bacon you might see in other countries. 
+	It includes both the pork loin from the back and a bit of pork belly in each rasher.</li>
+<br>     
+<li>Cook the baked beans. Put the baked beans into a saucepan on the stove and stir over gentle heat.</li>
+<br>     
+<li>Cook the eggs. Melt a little butter in the pan, or add oil if preferred. You can also use the leftover fat from cooking the bacon, if you've cooked that ahead of 
+	time. Crack two eggs into a separate pan. Once the yolks have gone opaque, the eggs are done, thus signaling that the rest of the ingredients are cooked as well.</li>
+<br>     
+<li>Cook the toast. If you really need advice on this part, please remove yourself from the kitchen and order a takeaway.</li>
+        
+</ol>
+    
+
+</section>
+    
+<footer>
+<p>        
+Copyright PAB 2018
+</p>    
+</footer>
+    <script>
+        function IngredientsHover() {
+            document.getElementById('Ingredients').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function IngredientsNormal() {
+            document.getElementById('Ingredients').firstElementChild.firstElementChild.style.fontSize = '100%';
+            // document.write("Normal");  
+        }
+
+
+        function PreparationHover() {
+            document.getElementById('Preparation').firstElementChild.firstElementChild.style.fontSize = '300%';
+        }
+
+
+        function PreparationNormal() {
+            document.getElementById('Preparation').firstElementChild.firstElementChild.style.fontSize = '100%';
+        }
+    </script>
+ </div> 
+</body>
+
+</html>
